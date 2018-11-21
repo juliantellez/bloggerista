@@ -1,6 +1,6 @@
 /**
  * Wraps fs in a promise
- * 
+ *
  * @param  {File} file
  */
 

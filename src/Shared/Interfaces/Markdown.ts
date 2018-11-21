@@ -1,4 +1,5 @@
 interface Markdown {
+  readonly draft: string;
   readonly title: string;
   readonly date: string;
   readonly fileName: string;
