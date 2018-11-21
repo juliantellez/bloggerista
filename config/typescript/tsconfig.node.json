@@ -1,0 +1,23 @@
+/**
+ * A TypeScript compiler configuration used when executing the application
+ * in node.js.
+ *
+ * This is currently used when running mocha tests and when executing
+ * configuration scripts.
+ */
+
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "lib": ["es2015", "es2017", "dom"],
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "inlineSourceMap": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true
+    }
+}
