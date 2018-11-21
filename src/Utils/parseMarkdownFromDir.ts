@@ -12,8 +12,8 @@ const parseMarkdownFromDir = async dir => {
   const files: Array<File> = await readDirectory(dir);
   const data = [];
 
-  for (let i = 0; i < files.length; i++) {
-    const currentFile = files[i];
+  for (let fileIndex = 0; fileIndex < files.length; fileIndex++) {
+    const currentFile = files[fileIndex];
     if (path.extname(currentFile.name) === MARKDOWN_EXTENSION) {
       const fileContent = await readFile(currentFile);
       data.push(markdownParser(currentFile, fileContent));
