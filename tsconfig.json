@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "lib": ["es2015", "es2017", "dom"],
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowJs": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true
+    }
+}

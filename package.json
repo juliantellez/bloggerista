@@ -1,6 +1,6 @@
 {
     "name": "bloggerista",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "scripts": {
         "fmt": "prettier --no-config --write '{,!(node_modules)/**/}*.ts'",
         "clean:public": "rm -rf public",
